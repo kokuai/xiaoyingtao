@@ -1,0 +1,123 @@
+/*寮圭獥*/
+.guize_html {
+    position: fixed;
+    top: 21.5%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -150px;
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+}
+.guize_html p {
+  padding:0 10px;
+  text-align:left;
+  text-indent:2em;
+}
+.guize_html_nei {
+  width:300px;
+  min-height:350px;
+  /*overflow-y:auto;*/
+  max-height:500px;
+  height:350px;
+  display:block;
+}
+.btnXZ {
+  display:block;
+  margin:10px auto;
+  width:125px;
+  height:40px;
+  border-radius:30px;
+  background-image: linear-gradient(to right, #65deb3, #53afcf);
+  color:#fff;
+  text-align:center;
+  line-height:40px;
+  cursor:pointer;
+}
+.GB {
+  display:block;
+  margin:10px auto;
+  width:125px;
+  height:40px;
+  border-radius:30px;
+  background-color:#7d7776;
+  color:#fff;
+  text-align:center;
+  line-height:40px;
+  cursor:pointer;
+}
+.overfloat {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:9;
+  display:none;
+  width:100%;
+  height:100%;
+  background-color:rgba(1,1,1,.5);
+}
+
+
+/*搴曟紓*/
+.bottommob {
+    -webkit-box-sizing: border-box;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 0 10px;
+    overflow: hidden;
+    width: 100%;
+    opacity: 0.85;
+    background: linear-gradient(to right, #1ba342, #56c2af);
+}
+.bottom-pic {
+    position: absolute;
+    top: 12px;
+    margin-left: 5px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.bottom-text {
+    margin-left: 97px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.bottom-wenan {
+    margin-left: 97px;
+    line-height: 25px;
+    font-size: 16px;
+    color: #fff;
+}
+.bottom-btn {
+    position: absolute;
+    top: 12px;
+    width: 120px;
+    right: 20px;
+    height: 45px;
+    line-height: 45px;
+    color: #ff2e4f;
+    background: linear-gradient(90deg,#f6f6f6,#f6f6f6);
+    border-radius: 55px;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+.bottommob a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
